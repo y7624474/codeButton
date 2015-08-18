@@ -10,6 +10,11 @@
 
 @interface ViewController : UIViewController
 
+-(void)createText:(CGRect) frame Title:(NSString*) title;
+-(void)createButton:(CGRect) frame Title:(NSString*) title;
+-(void)clicknumbtn:(id)sender;
+
+@property (strong, nonatomic) UITextField *resultText;
 
 @end
 
